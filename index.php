@@ -1,9 +1,7 @@
-<?php
-
-echo "# Lana" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/BeKind-please/Lana.git
-git push -u origin main
+<?PHP
+	$a=123;//число
+	$b='123';//string
+	var_export($a===$b);
+	$a=true;
+	$b='1';
+	var_export($a===$b);
